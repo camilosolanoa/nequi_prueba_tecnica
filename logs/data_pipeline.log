@@ -1,0 +1,486 @@
+2024-12-23 15:28:19,678 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-23 15:28:20,339 - __main__ - [INFO] - === EDA START ===
+2024-12-23 15:28:20,344 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-23 15:28:20,344 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-23 15:28:20,468 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-23 15:28:20,908 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-23 15:28:21,043 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-23 15:28:21,043 - __main__ - [INFO] - === EDA END ===
+2024-12-23 15:28:21,059 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-23 15:28:21,135 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB localhost.
+2024-12-23 15:28:21,136 - __main__ - [INFO] - Creating table in AWS DB if not exists...
+2024-12-23 15:28:21,950 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-23 15:28:21,955 - __main__ - [INFO] - 
+--- LOADING CSV DATA ---
+2024-12-23 15:28:21,991 - __main__ - [ERROR] - Error loading CSV into DB localhost: 'Date'
+2024-12-23 15:30:34,777 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-23 15:30:35,471 - __main__ - [INFO] - === EDA START ===
+2024-12-23 15:30:35,472 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-23 15:30:35,473 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-23 15:30:35,595 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-23 15:30:36,015 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-23 15:30:36,131 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-23 15:30:36,136 - __main__ - [INFO] - === EDA END ===
+2024-12-23 15:30:36,149 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-23 15:30:36,182 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB localhost.
+2024-12-23 15:30:36,182 - __main__ - [INFO] - Creating table in AWS DB if not exists...
+2024-12-23 15:30:37,043 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-23 15:30:37,043 - __main__ - [INFO] - 
+--- LOADING CSV DATA ---
+2024-12-23 15:30:37,077 - __main__ - [ERROR] - Error loading CSV into DB localhost: 'Date'
+2024-12-23 15:31:34,039 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-23 15:31:34,695 - __main__ - [INFO] - === EDA START ===
+2024-12-23 15:31:34,695 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-23 15:31:34,695 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-23 15:31:34,819 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-23 15:31:35,264 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-23 15:31:35,383 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-23 15:31:35,383 - __main__ - [INFO] - === EDA END ===
+2024-12-23 15:31:35,398 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-23 15:31:35,433 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB localhost.
+2024-12-23 15:31:35,433 - __main__ - [INFO] - Creating table in AWS DB if not exists...
+2024-12-23 15:31:36,252 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-23 15:31:36,252 - __main__ - [INFO] - 
+--- LOADING CSV DATA ---
+2024-12-23 15:48:36,202 - __main__ - [INFO] - Inserted 1004480 rows into table 'bank_transactions' in DB localhost.
+2024-12-23 15:48:36,202 - __main__ - [INFO] - Loaded 1004480 rows into LOCAL DB in 1019.9499 seconds.
+2024-12-24 09:30:01,237 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-24 09:30:03,954 - __main__ - [INFO] - === EDA START ===
+2024-12-24 09:30:03,954 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-24 09:30:03,959 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-24 09:30:04,408 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-24 09:30:05,874 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-24 09:30:06,305 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-24 09:30:06,315 - __main__ - [INFO] - === EDA END ===
+2024-12-24 09:30:06,361 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-24 09:30:10,859 - __main__ - [ERROR] - Error establishing DB connection: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2024-12-24 09:30:10,864 - __main__ - [ERROR] - Error creating table 'bank_transactions' in DB localhost: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2024-12-24 09:32:48,607 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-24 09:32:51,038 - __main__ - [INFO] - === EDA START ===
+2024-12-24 09:32:51,038 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-24 09:32:51,043 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-24 09:32:51,479 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-24 09:32:52,936 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-24 09:32:53,319 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-24 09:32:53,329 - __main__ - [INFO] - === EDA END ===
+2024-12-24 09:32:53,369 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-24 09:32:53,546 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB localhost.
+2024-12-24 09:32:53,551 - __main__ - [INFO] - Creating table in AWS DB if not exists...
+2024-12-24 09:32:54,345 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-24 09:32:54,350 - __main__ - [INFO] - 
+--- LOADING CSV DATA ---
+2024-12-24 09:41:32,767 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-24 09:41:35,348 - __main__ - [INFO] - === EDA START ===
+2024-12-24 09:41:35,350 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-24 09:41:35,359 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-24 09:41:35,975 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-24 09:41:37,670 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-24 09:41:38,106 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-24 09:41:38,106 - __main__ - [INFO] - === EDA END ===
+2024-12-24 09:41:38,157 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-24 09:41:38,279 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB localhost.
+2024-12-24 09:41:38,282 - __main__ - [INFO] - Creating table in AWS DB if not exists...
+2024-12-24 09:41:39,173 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-24 09:41:39,175 - __main__ - [INFO] - 
+--- LOADING CSV DATA ---
+2024-12-24 09:43:50,058 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-24 09:43:52,483 - __main__ - [INFO] - === EDA START ===
+2024-12-24 09:43:52,485 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-24 09:43:52,496 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-24 09:43:52,958 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-24 09:43:54,438 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-24 09:43:54,812 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-24 09:43:54,837 - __main__ - [INFO] - === EDA END ===
+2024-12-24 09:43:54,877 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-24 09:43:54,991 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB localhost.
+2024-12-24 09:43:54,991 - __main__ - [INFO] - Creating table in AWS DB if not exists...
+2024-12-24 09:43:55,939 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-24 09:43:55,939 - __main__ - [INFO] - 
+--- LOADING CSV DATA ---
+2024-12-24 09:43:58,756 - __main__ - [INFO] - Inserted 1000 rows into table 'bank_transactions' in DB localhost.
+2024-12-24 09:43:58,763 - __main__ - [INFO] - Loaded 1000 rows into LOCAL DB in 2.8245 seconds.
+2024-12-24 09:45:14,408 - __main__ - [INFO] - Inserted 1000 rows into table 'bank_transactions' in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-24 09:45:14,410 - __main__ - [INFO] - Loaded 1000 rows into AWS DB in 75.6473 seconds.
+2024-12-24 09:45:14,411 - __main__ - [INFO] - 
+--- SINGLE QUERY TEST ---
+2024-12-24 09:45:14,489 - __main__ - [INFO] - Local DB - Single Query Time: 0.0177s, Row Count: 1000
+2024-12-24 09:45:15,422 - __main__ - [INFO] - AWS DB - Single Query Time: 0.1637s, Row Count: 1000
+2024-12-24 09:45:15,422 - __main__ - [INFO] - 
+--- CONCURRENT QUERY TESTS ---
+2024-12-24 09:45:15,422 - __main__ - [INFO] - 
+Running concurrent queries with 1 threads...
+2024-12-24 09:45:15,508 - __main__ - [INFO] - Local DB - 1 Threads - Average Query Time: 0.0154s
+2024-12-24 09:45:16,295 - __main__ - [INFO] - AWS DB - 1 Threads - Average Query Time: 0.1563s
+2024-12-24 09:45:16,295 - __main__ - [INFO] - 
+Running concurrent queries with 2 threads...
+2024-12-24 09:45:16,408 - __main__ - [INFO] - Local DB - 2 Threads - Average Query Time: 0.0053s
+2024-12-24 09:45:17,207 - __main__ - [INFO] - AWS DB - 2 Threads - Average Query Time: 0.1574s
+2024-12-24 09:45:17,207 - __main__ - [INFO] - 
+Running concurrent queries with 5 threads...
+2024-12-24 09:45:17,418 - __main__ - [INFO] - Local DB - 5 Threads - Average Query Time: 0.0078s
+2024-12-24 09:45:18,225 - __main__ - [INFO] - AWS DB - 5 Threads - Average Query Time: 0.1610s
+2024-12-24 09:45:18,225 - __main__ - [INFO] - 
+Running concurrent queries with 10 threads...
+2024-12-24 09:45:18,580 - __main__ - [INFO] - Local DB - 10 Threads - Average Query Time: 0.0262s
+2024-12-24 09:45:19,424 - __main__ - [INFO] - AWS DB - 10 Threads - Average Query Time: 0.1576s
+2024-12-24 09:45:19,424 - __main__ - [INFO] - 
+Running concurrent queries with 20 threads...
+2024-12-24 09:45:20,021 - __main__ - [INFO] - Local DB - 20 Threads - Average Query Time: 0.0422s
+2024-12-24 09:45:21,052 - __main__ - [INFO] - AWS DB - 20 Threads - Average Query Time: 0.1541s
+2024-12-24 09:45:56,534 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-24 09:45:59,151 - __main__ - [INFO] - === EDA START ===
+2024-12-24 09:45:59,151 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-24 09:45:59,175 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-24 09:45:59,605 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-24 09:46:01,111 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-24 09:46:01,494 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-24 09:46:01,509 - __main__ - [INFO] - === EDA END ===
+2024-12-24 09:46:01,552 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-24 09:46:01,654 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB localhost.
+2024-12-24 09:46:01,656 - __main__ - [INFO] - Creating table in AWS DB if not exists...
+2024-12-24 09:46:02,469 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-24 09:46:02,470 - __main__ - [INFO] - 
+--- LOADING CSV DATA ---
+2024-12-24 09:51:02,645 - __main__ - [INFO] - Inserted 100000 rows into table 'bank_transactions' in DB localhost.
+2024-12-24 09:51:02,645 - __main__ - [INFO] - Loaded 100000 rows into LOCAL DB in 300.1754 seconds.
+2024-12-24 10:13:12,976 - __main__ - [INFO] - Starting EDA for file: bankdataset.csv
+2024-12-24 10:13:15,846 - __main__ - [INFO] - === EDA START ===
+2024-12-24 10:13:15,846 - __main__ - [INFO] - DataFrame shape: (1004480, 5)
+2024-12-24 10:13:15,862 - __main__ - [INFO] - Columns and dtypes:
+Date                 object
+Domain               object
+Location             object
+Value                 int64
+Transaction_count     int64
+dtype: object
+2024-12-24 10:13:16,295 - __main__ - [INFO] - Missing values per column:
+Date                 0
+Domain               0
+Location             0
+Value                0
+Transaction_count    0
+dtype: int64
+2024-12-24 10:13:17,867 - __main__ - [INFO] - Number of duplicate rows: 0
+2024-12-24 10:13:18,284 - __main__ - [INFO] - Numeric columns describe:
+              Value  Transaction_count
+count  1.004480e+06       1.004480e+06
+mean   7.498478e+05       1.473808e+03
+std    2.609129e+05       6.203409e+02
+min    2.984230e+05       4.000000e+02
+25%    5.235588e+05       9.380000e+02
+50%    7.499930e+05       1.473000e+03
+75%    9.755835e+05       2.011000e+03
+max    1.202271e+06       2.548000e+03
+2024-12-24 10:13:18,284 - __main__ - [INFO] - === EDA END ===
+2024-12-24 10:13:18,343 - __main__ - [INFO] - Creating table in Local DB if not exists...
+2024-12-24 10:13:18,474 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB localhost.
+2024-12-24 10:13:18,474 - __main__ - [INFO] - Creating table in AWS DB if not exists...
+2024-12-24 10:13:19,396 - __main__ - [INFO] - Table 'bank_transactions' checked/created in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-24 10:13:19,396 - __main__ - [INFO] - 
+--- LOADING CSV DATA ---
+2024-12-24 10:13:23,571 - __main__ - [INFO] - Inserted 1000 rows...
+2024-12-24 10:13:27,618 - __main__ - [INFO] - Inserted 2000 rows...
+2024-12-24 10:13:31,717 - __main__ - [INFO] - Inserted 3000 rows...
+2024-12-24 10:13:35,829 - __main__ - [INFO] - Inserted 4000 rows...
+2024-12-24 10:13:39,869 - __main__ - [INFO] - Inserted 5000 rows...
+2024-12-24 10:13:43,914 - __main__ - [INFO] - Inserted 6000 rows...
+2024-12-24 10:13:47,903 - __main__ - [INFO] - Inserted 7000 rows...
+2024-12-24 10:13:51,849 - __main__ - [INFO] - Inserted 8000 rows...
+2024-12-24 10:13:55,876 - __main__ - [INFO] - Inserted 9000 rows...
+2024-12-24 10:13:59,972 - __main__ - [INFO] - Inserted 10000 rows...
+2024-12-24 10:13:59,987 - __main__ - [INFO] - Inserted 10000 rows into table 'bank_transactions' in DB localhost.
+2024-12-24 10:13:59,987 - __main__ - [INFO] - Loaded 10000 rows into LOCAL DB in 40.5909 seconds.
+2024-12-24 10:15:17,212 - __main__ - [INFO] - Inserted 1000 rows...
+2024-12-24 10:16:33,373 - __main__ - [INFO] - Inserted 2000 rows...
+2024-12-24 10:17:49,596 - __main__ - [INFO] - Inserted 3000 rows...
+2024-12-24 10:19:06,633 - __main__ - [INFO] - Inserted 4000 rows...
+2024-12-24 10:20:23,144 - __main__ - [INFO] - Inserted 5000 rows...
+2024-12-24 10:21:39,419 - __main__ - [INFO] - Inserted 6000 rows...
+2024-12-24 10:22:55,648 - __main__ - [INFO] - Inserted 7000 rows...
+2024-12-24 10:24:15,135 - __main__ - [INFO] - Inserted 8000 rows...
+2024-12-24 10:25:32,365 - __main__ - [INFO] - Inserted 9000 rows...
+2024-12-24 10:26:48,934 - __main__ - [INFO] - Inserted 10000 rows...
+2024-12-24 10:26:49,015 - __main__ - [INFO] - Inserted 10000 rows into table 'bank_transactions' in DB database-1.c5iwkk6uyxsb.us-east-2.rds.amazonaws.com.
+2024-12-24 10:26:49,018 - __main__ - [INFO] - Loaded 10000 rows into AWS DB in 769.0308 seconds.
+2024-12-24 10:26:49,019 - __main__ - [INFO] - 
+--- SINGLE QUERY TEST ---
+2024-12-24 10:26:49,133 - __main__ - [INFO] - Local DB - Single Query Time: 0.0489s, Row Count: 10000
+2024-12-24 10:26:50,150 - __main__ - [INFO] - AWS DB - Single Query Time: 0.1665s, Row Count: 10000
+2024-12-24 10:26:50,150 - __main__ - [INFO] - 
+--- CONCURRENT QUERY TESTS ---
+2024-12-24 10:26:50,166 - __main__ - [INFO] - 
+Running concurrent queries with 1 threads...
+2024-12-24 10:26:50,273 - __main__ - [INFO] - Local DB - 1 Threads - Average Query Time: 0.0162s
+2024-12-24 10:26:51,085 - __main__ - [INFO] - AWS DB - 1 Threads - Average Query Time: 0.1652s
+2024-12-24 10:26:51,085 - __main__ - [INFO] - 
+Running concurrent queries with 2 threads...
+2024-12-24 10:26:51,192 - __main__ - [INFO] - Local DB - 2 Threads - Average Query Time: 0.0096s
+2024-12-24 10:26:51,969 - __main__ - [INFO] - AWS DB - 2 Threads - Average Query Time: 0.1581s
+2024-12-24 10:26:51,969 - __main__ - [INFO] - 
+Running concurrent queries with 5 threads...
+2024-12-24 10:26:52,168 - __main__ - [INFO] - Local DB - 5 Threads - Average Query Time: 0.0161s
+2024-12-24 10:26:52,962 - __main__ - [INFO] - AWS DB - 5 Threads - Average Query Time: 0.1600s
+2024-12-24 10:26:52,962 - __main__ - [INFO] - 
+Running concurrent queries with 10 threads...
+2024-12-24 10:26:53,274 - __main__ - [INFO] - Local DB - 10 Threads - Average Query Time: 0.0268s
+2024-12-24 10:26:54,104 - __main__ - [INFO] - AWS DB - 10 Threads - Average Query Time: 0.1568s
+2024-12-24 10:26:54,120 - __main__ - [INFO] - 
+Running concurrent queries with 20 threads...
+2024-12-24 10:26:54,629 - __main__ - [INFO] - Local DB - 20 Threads - Average Query Time: 0.0396s
+2024-12-24 10:26:55,747 - __main__ - [INFO] - AWS DB - 20 Threads - Average Query Time: 0.1535s
+2024-12-24 10:26:55,747 - __main__ - [INFO] - 
+Running concurrent queries with 50 threads...
+2024-12-24 10:26:57,022 - __main__ - [INFO] - Local DB - 50 Threads - Average Query Time: 0.0870s
+2024-12-24 10:26:58,299 - __main__ - [INFO] - AWS DB - 50 Threads - Average Query Time: 0.1758s
+2024-12-24 10:29:51,726 - __main__ - [INFO] - 
+--- SINGLE QUERY TEST ---
+2024-12-24 10:29:51,866 - __main__ - [INFO] - Local DB - Single Query Time: 0.0338s, Row Count: 10000
+2024-12-24 10:29:52,814 - __main__ - [INFO] - AWS DB - Single Query Time: 0.1500s, Row Count: 10000
+2024-12-24 10:29:52,814 - __main__ - [INFO] - 
+--- CONCURRENT QUERY TESTS ---
+2024-12-24 10:29:52,814 - __main__ - [INFO] - 
+Running concurrent queries with 1 threads...
+2024-12-24 10:29:52,914 - __main__ - [INFO] - Local DB - 1 Threads - Average Query Time: 0.0154s
+2024-12-24 10:29:53,666 - __main__ - [INFO] - AWS DB - 1 Threads - Average Query Time: 0.1603s
+2024-12-24 10:29:53,666 - __main__ - [INFO] - 
+Running concurrent queries with 2 threads...
+2024-12-24 10:29:53,776 - __main__ - [INFO] - Local DB - 2 Threads - Average Query Time: 0.0139s
+2024-12-24 10:29:54,574 - __main__ - [INFO] - AWS DB - 2 Threads - Average Query Time: 0.1632s
+2024-12-24 10:29:54,575 - __main__ - [INFO] - 
+Running concurrent queries with 5 threads...
+2024-12-24 10:29:54,807 - __main__ - [INFO] - Local DB - 5 Threads - Average Query Time: 0.0140s
+2024-12-24 10:29:56,197 - __main__ - [INFO] - AWS DB - 5 Threads - Average Query Time: 0.1601s
+2024-12-24 10:29:56,198 - __main__ - [INFO] - 
+Running concurrent queries with 10 threads...
+2024-12-24 10:29:56,480 - __main__ - [INFO] - Local DB - 10 Threads - Average Query Time: 0.0216s
+2024-12-24 10:29:57,465 - __main__ - [INFO] - AWS DB - 10 Threads - Average Query Time: 0.1578s
+2024-12-24 10:29:57,465 - __main__ - [INFO] - 
+Running concurrent queries with 20 threads...
+2024-12-24 10:29:57,965 - __main__ - [INFO] - Local DB - 20 Threads - Average Query Time: 0.0467s
+2024-12-24 10:29:58,895 - __main__ - [INFO] - AWS DB - 20 Threads - Average Query Time: 0.1573s
+2024-12-24 10:29:58,900 - __main__ - [INFO] - 
+Running concurrent queries with 50 threads...
+2024-12-24 10:30:00,137 - __main__ - [INFO] - Local DB - 50 Threads - Average Query Time: 0.0882s
+2024-12-24 10:30:01,422 - __main__ - [INFO] - AWS DB - 50 Threads - Average Query Time: 0.1651s
+2024-12-24 10:32:01,941 - __main__ - [INFO] - 
+--- SINGLE QUERY TEST ---
+2024-12-24 10:32:02,079 - __main__ - [INFO] - Local DB - Single Query Time: 0.0320s, Row Count: 10000
+2024-12-24 10:32:03,099 - __main__ - [INFO] - AWS DB - Single Query Time: 0.1685s, Row Count: 10000
+2024-12-24 10:32:03,099 - __main__ - [INFO] - 
+--- CONCURRENT QUERY TESTS ---
+2024-12-24 10:32:03,099 - __main__ - [INFO] - 
+Running concurrent queries with 1 threads...
+2024-12-24 10:32:03,186 - __main__ - [INFO] - Local DB - 1 Threads - Average Query Time: 0.0244s
+2024-12-24 10:32:04,010 - __main__ - [INFO] - AWS DB - 1 Threads - Average Query Time: 0.1658s
+2024-12-24 10:32:04,010 - __main__ - [INFO] - 
+Running concurrent queries with 2 threads...
+2024-12-24 10:32:04,104 - __main__ - [INFO] - Local DB - 2 Threads - Average Query Time: 0.0171s
+2024-12-24 10:32:04,919 - __main__ - [INFO] - AWS DB - 2 Threads - Average Query Time: 0.1666s
+2024-12-24 10:32:04,920 - __main__ - [INFO] - 
+Running concurrent queries with 3 threads...
+2024-12-24 10:32:05,037 - __main__ - [INFO] - Local DB - 3 Threads - Average Query Time: 0.0253s
+2024-12-24 10:32:05,834 - __main__ - [INFO] - AWS DB - 3 Threads - Average Query Time: 0.1496s
+2024-12-24 10:32:05,834 - __main__ - [INFO] - 
+Running concurrent queries with 5 threads...
+2024-12-24 10:32:06,023 - __main__ - [INFO] - Local DB - 5 Threads - Average Query Time: 0.0178s
+2024-12-24 10:32:06,869 - __main__ - [INFO] - AWS DB - 5 Threads - Average Query Time: 0.1558s
+2024-12-24 10:32:06,869 - __main__ - [INFO] - 
+Running concurrent queries with 8 threads...
+2024-12-24 10:32:07,106 - __main__ - [INFO] - Local DB - 8 Threads - Average Query Time: 0.0178s
+2024-12-24 10:32:08,175 - __main__ - [INFO] - AWS DB - 8 Threads - Average Query Time: 0.1569s
+2024-12-24 10:32:08,175 - __main__ - [INFO] - 
+Running concurrent queries with 10 threads...
+2024-12-24 10:32:08,462 - __main__ - [INFO] - Local DB - 10 Threads - Average Query Time: 0.0209s
+2024-12-24 10:32:09,286 - __main__ - [INFO] - AWS DB - 10 Threads - Average Query Time: 0.1524s
+2024-12-24 10:32:09,286 - __main__ - [INFO] - 
+Running concurrent queries with 15 threads...
+2024-12-24 10:32:09,659 - __main__ - [INFO] - Local DB - 15 Threads - Average Query Time: 0.0348s
+2024-12-24 10:32:10,579 - __main__ - [INFO] - AWS DB - 15 Threads - Average Query Time: 0.1580s
+2024-12-24 10:32:10,579 - __main__ - [INFO] - 
+Running concurrent queries with 20 threads...
+2024-12-24 10:32:11,050 - __main__ - [INFO] - Local DB - 20 Threads - Average Query Time: 0.0598s
+2024-12-24 10:32:11,992 - __main__ - [INFO] - AWS DB - 20 Threads - Average Query Time: 0.1549s
+2024-12-24 10:32:11,992 - __main__ - [INFO] - 
+Running concurrent queries with 30 threads...
+2024-12-24 10:32:12,805 - __main__ - [INFO] - Local DB - 30 Threads - Average Query Time: 0.1018s
+2024-12-24 10:32:13,963 - __main__ - [INFO] - AWS DB - 30 Threads - Average Query Time: 0.1595s
+2024-12-24 10:32:13,980 - __main__ - [INFO] - 
+Running concurrent queries with 50 threads...
+2024-12-24 10:32:15,306 - __main__ - [INFO] - Local DB - 50 Threads - Average Query Time: 0.1333s
+2024-12-24 10:32:16,547 - __main__ - [INFO] - AWS DB - 50 Threads - Average Query Time: 0.1865s
