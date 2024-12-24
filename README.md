@@ -66,7 +66,7 @@ La arquitectura seleccionada incluye los siguientes componentes:
 A alto nivel, el diagrama de arquitectura es el siguiente:
 
 ```
-scssCopy code[CSV File] 
+[CSV File] 
      |
      v
 [Python ETL (main.py)] 
@@ -100,7 +100,7 @@ Estos hallazgos indican que el dataset está bastante limpio y es válido para e
 Para almacenar esta información, se eligió un **modelo relacional** simple con una sola tabla llamada `bank_transactions`:
 
 ```
-sqlCopy codeCREATE TABLE IF NOT EXISTS bank_transactions (
+CREATE TABLE IF NOT EXISTS bank_transactions (
     id SERIAL PRIMARY KEY,
     date DATE,
     domain VARCHAR(255),
@@ -148,7 +148,6 @@ El **Paso 4** incluye la creación de tuberías de datos para cargar la informac
 La estructura de carpetas para este propósito (propuesta) es:
 
 ```
-cCopy code.
 ├── main.py
 ├── logs/
 │    └── data_pipeline.log
@@ -163,7 +162,7 @@ cCopy code.
 
 Se realizaron pruebas de consulta concurrente con diferentes cantidades de *threads* (1, 2, 3, 5, 8, 10, 15, 20, 30, 50). Se midió el **tiempo promedio de ejecución** de una consulta `SELECT COUNT(*) ...` sobre la tabla `bank_transactions`.
 
-![output](C:\Users\Camilo Solano\Desktop\nt\output.png)
+![output](output.png)
 
 ------
 
@@ -207,7 +206,7 @@ Se realizaron pruebas de consulta concurrente con diferentes cantidades de *thre
 1. Clonar el repositorio:
 
    ```
-   bashCopy codegit clone https://github.com/tu-usuario/nequi_prueba_tecnica.git
+   git clone https://github.com/tu-usuario/nequi_prueba_tecnica.git
    cd nequi_prueba_tecnica
    ```
 
